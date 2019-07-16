@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout2"
+    android:padding="6dp"
+    android:background="@android:color/holo_orange_light"
+
+    tools:context=".Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="The Real Cinderella"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewFragment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello this is the second fragment"
+            android:layout_marginBottom="2dp"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/buttonFragment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changeColour" />
+    </LinearLayout>
+
+</FrameLayout>
